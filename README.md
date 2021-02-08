@@ -1,5 +1,5 @@
-# EXLEQ-Retail
-This project was made as part of the EXL EQ 2018 contest. The solution secured 2nd position and the award for the best visualization.
+# EXL EQ 2018
+EXL Analyitcs organized a data analytics contest for top 20 engineering colleges in India (including IITs/NITs/BITS/DTU) during Jan-Feb 2018. This project was undertaken for the same.
 
 # Team Members
 1. Arnav Saxena
