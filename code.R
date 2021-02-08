@@ -1,6 +1,6 @@
 # import dataset
 
-Demograph <- read_excel("C:/Users/Mudit/Desktop/EXL/Data.xlsx", 
+Demograph <- read_excel("<location of the data file on your system>", 
                         +     sheet = "Demographics")
 View(Demograph)
 Demograph<-Demograph[,-2]
@@ -29,12 +29,12 @@ Demograph_new$Owns_Home<-factor(Demograph_new$Owns_Home,label=c("N","Y"))
 
 # ----------------importing rest of the databases--------------------------
 
-Ping_bad <- read_excel("/media/mudit/4CB0792EB079201E/Users/Mudit/Desktop/EXL/Data.xlsx", 
+Ping_bad <- read_excel("<location of the data file on your system>", 
                   +     sheet = "Ping_Information")
-Cat_Map <- read_excel("/media/mudit/4CB0792EB079201E/Users/Mudit/Desktop/EXL/Data.xlsx", 
+Cat_Map <- read_excel("<location of the data file on your system>", 
                       +     sheet = "Category Mapping")
 Category_Mapping<-Cat_Map
-Store_Map <- read_excel("/media/mudit/4CB0792EB079201E/Users/Mudit/Desktop/EXL/Data.xlsx", 
+Store_Map <- read_excel("<location of the data file on your system>", 
                         +     sheet = "Store Mapping")
 Store_Mapping<-Store_Map
 
